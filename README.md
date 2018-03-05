@@ -18,3 +18,19 @@ Build a secure shell connection to routers from network that I built in GNS3.
 -- Also it will send the configuration commands to all the routers simultaneously using threading module.
 
 
+
+----Executing process
+-- first upgrade the configuration files to each routers using console from network created in GNS3.
+-- run the python file SSH_Config.py in linux shell terminal.
+-- first of all the program asks for the file stroing the IP addresses i.e. "ssh_ip.txt".
+-- then it checks the connectivity to each of the routers and issues a message at the end.
+-- second it asks for the file storing the credentials i.e. "ssh_userpass.txt" to use SSh connection for each routers.
+-- Finally it asks for the file storing the commands i.e. "ssh_commands.txt" that we want to send to each router simultaneously.
+
+
+
+
+
+
+
+
